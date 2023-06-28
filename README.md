@@ -10,3 +10,4 @@ So, one thread runs and the others sleep, sequentially. this problem is solved w
 - Fourth lecture starts showing the problem of race condition, which, generates when multiple threads run in parallel. Then it is introduced the problem of deadlocks, with the example of two banks account and an infinite loop. This problem is also tackeld in the next lecture, with the famous dining philosophers problem.
 - Fifth lecture here we dealt w/ the problem of dining philosophers, solving it into two different ways. Firstly, using Lock class, and then, Semaphore one.
 - Sixth lecture explored the use of conditions (no more Semaphores) and equilibrated the loads on each thread
+- MID TERM EXAM, EXERCISES SOLVED: 
