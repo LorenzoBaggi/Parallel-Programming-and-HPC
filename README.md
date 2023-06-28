@@ -7,4 +7,5 @@ First three lectures involve the problem of PI estimation, which takes too long 
 - Second lecture then elaborates on this problem and addresses it with the help of multi-threading. This lecture shows that having multi-threads do not help the situation, indeed, there is the so called problem of GIL, Global Interpreter Lock.
 So, one thread runs and the others sleep, sequentially. this problem is solved with the help of NUMBA and JIL (just in time compiler)
 - Third lecture shows how to implement the PI estimation using mutiple threads in parallel, obtaning a high efficiency very fast
-- Fourth lecture starts showing the problem of race condition, which, generates when multiple threads run in parallel
+- Fourth lecture starts showing the problem of race condition, which, generates when multiple threads run in parallel. Then it is introduced the problem of deadlocks, with the example of two banks account and an infinite loop. This problem is also tackeld in the next lecture, with the famous dining philosophers problem.
+- Fift lecture
